@@ -1,0 +1,26 @@
+implementation:
+     - If no parameters are specified, the program 
+        must not display anything and give the prompt back
+
+     - The first argument should be at the top of the
+        stack (be careful about the order).
+  
+     - In case of error, it must display "Error" followed 
+        by a ’\n’ on the standard error.
+     - Errors include for example: some arguments aren’t 
+        integers, some arguments are bigger than an 
+        integer and/or there are duplicates.
+
+Scripts:
+	 -  make Script that receive numbers and excecute 
+	 	 push_swap with thats numbers
+	 -  
+
+Makefile:
+     - Hide objects compilations from ft_printf & libft
+     - Show a message something like "ft_printf & libft 
+        suscess"
+
+Attention:
+     - The first argument should be at the top of the 
+    stack (be careful about the order).
