@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <stdio.h>
+# include "../printf/header/ft_printf.h"
 
 
 typedef struct s_list

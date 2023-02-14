@@ -10,10 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/header.h"
+#include "../Includes/data.h"
 
 int	main(int argc, char **argv)
 {
-	
+	(void) argv;
+	if (argc == 1)
+		return (0);
+	else
+		ft_printf("%s", argv[1]);
 	return (0);
 }
