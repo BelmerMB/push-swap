@@ -13,11 +13,6 @@
 #ifndef DATA_H
 # define DATA_H
 
-# include "../printf/header/ft_printf.h"
-# include "header.h"
-# include <stdlib.h>
-# include <stdio.h>
-
 typedef struct s_list
 {
 	int				data;
