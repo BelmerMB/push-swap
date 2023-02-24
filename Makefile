@@ -5,7 +5,7 @@ OBJ_DIR =	./objects
 LIBFT_DIR =	./printf
 LIBFT =		$(addprefix $(LIBFT_DIR)/, libftprintf.a)
 
-SRC_FILES =	list_functions.c push_swap.c 
+SRC_FILES =	args_check.c push_swap.c 
 
 FLAGS_ERROR =	-Wall -Wextra -Werror
 SRC =		$(addprefix $(SRC_DIR)/, $(SRC_FILES))
